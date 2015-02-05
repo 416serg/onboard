@@ -1,14 +1,14 @@
 // package metadata file for Meteor.js
 'use strict';
 
-var packageName = '416serg:onboardjs';  // https://atmospherejs.com/416serg/onboardjs
+var packageName = '416serg:onboard';  // https://atmospherejs.com/416serg/onboardjs
 var where = 'client';  // where to install: 'client' or 'server'. For both, pass nothing.
 
 Package.describe({
   name: packageName,
   summary: 'onboard.js, a jQuery plugin that creates an elegant overlay for onboarding and product tours.',
   version: '0.0.1',
-  git: 'https://github.com/416serg/onboard.js'
+  git: 'https://github.com/416serg/onboard'
 });
 
 Package.onUse(function (api) {
